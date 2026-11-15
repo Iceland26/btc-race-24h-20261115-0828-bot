@@ -41,7 +41,7 @@ const SYMBOL = 'CBBTC';
 const BURST_BARS = 5;             // breakout lookback (bars)
 const BURST_BPS = 90;             // enter when up >= 90 bps over BURST_BARS
 const TAKE_PROFIT_BPS = 250;      // exit once up >= +250 bps from cost
-const STOP_LOSS_BPS = 30;         // hard stop at -30 bps from cost
+const STOP_LOSS_BPS = 20;         // hard stop at -20 bps from cost
 const TRAIL_BPS = 60;             // trailing stop 60 bps below the peak close
 const COOLDOWN_AFTER_TP_BARS = 60; // bars to wait after a take-profit exit
 const MAX_SLIPPAGE_BPS = 500;
